@@ -1,7 +1,21 @@
 .default {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    background: #635892;
+    border: none;
+    transition: transform 0.2s linear;
+}
+
+.default:hover {
+    transform: scale(1.05);
 
 }
 
 .red {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
     background: #982525;
+    border: 3px solid black;
 }

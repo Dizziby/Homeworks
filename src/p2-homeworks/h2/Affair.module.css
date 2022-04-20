@@ -1,5 +1,13 @@
-td {
+.text {
     width: 100px;
     text-align: center;
+    background: #ad7676;
+    border-radius: 10px;
+    vertical-align: center;
 }
+
+.table {
+    vertical-align: center;
+}
+
 

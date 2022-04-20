@@ -15,9 +15,7 @@
 }
 
 .btn {
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: 700;
+    color: #A5E800;
 }
 
 .checkbox:checked {

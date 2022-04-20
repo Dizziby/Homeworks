@@ -1,5 +1,7 @@
 .superInput {
-    color: #c25b0d;
+    border: 3px solid #173e62;
+    background: #46839b;
+    border-radius: 5px;
     font-weight: 700;
 }
 
@@ -10,7 +12,9 @@
 }
 
 .error {
-    color: #982525;
+    color: #b6133f;
+    display: block;
+    height: 25px;
 }
 
 .blue {
