@@ -1,0 +1,41 @@
+.header {
+    display: inline-block;
+    position: relative;
+    left: -260px;
+    transition: left .4s ease;
+}
+
+.header:hover {
+    left: 0;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+}
+
+.square {
+    display: inline-block;
+    background-color: #635892;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navLink {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navLink:first-child {
+    margin-left: 10px;
+}
+
+.navLink:hover {
+    color: #46839b;
+}
+
+.active {
+    text-decoration: underline;
+}

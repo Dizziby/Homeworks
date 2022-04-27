@@ -3,12 +3,14 @@
     background: #46839b;
     border-radius: 5px;
     font-weight: 700;
+    outline: none;
 }
 
 .errorInput {
     border: 3px solid #5e0f0f;
     background: #e08888;
     border-radius: 5px;
+    outline: none;
 }
 
 .error {
