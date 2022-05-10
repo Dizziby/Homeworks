@@ -19,7 +19,8 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         onChange, onChangeText,
         onKeyPress, onEnter,
         error,
-        className, spanClassName,
+        className,
+        spanClassName,
 
         ...restProps// все остальные пропсы попадут в объект restProps
     }

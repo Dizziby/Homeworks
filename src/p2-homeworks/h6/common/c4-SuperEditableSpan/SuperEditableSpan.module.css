@@ -1,4 +1,17 @@
 .span {
+    display: inline-block;
+    height: 23px;
+    margin-top: 5px;
+
     font-style: italic;
     font-weight: 500;
+}
+
+
+.input {
+    margin-top: 5px;
+}
+
+.error {
+    display: none;
 }
