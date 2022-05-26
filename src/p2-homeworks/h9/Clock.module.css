@@ -1,0 +1,13 @@
+.date {
+    height: 20px;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+.time {
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 10px;
+}

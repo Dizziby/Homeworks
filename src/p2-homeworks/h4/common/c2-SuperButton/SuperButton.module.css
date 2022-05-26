@@ -5,6 +5,7 @@
     background: #635892;
     border: none;
     transition: transform 0.2s linear;
+    cursor: pointer;
 }
 
 .default:hover {
