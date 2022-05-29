@@ -1,12 +1,19 @@
 import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import {useDispatch, useSelector} from "react-redux";
+import {AppStoreType} from "./bll/store";
+import {loadingAC} from "./bll/loadingReducer";
 
 function HW10() {
     // useSelector, useDispatch
-    const loading = false
+    const loading = useSelector<AppStoreType, boolean>(state => state.loading.isLoading)
+    const dispatch = useDispatch()
 
     const setLoading = () => {
-        // dispatch
+        dispatch(loadingAC())
+        setTimeout(() => {
+            dispatch(loadingAC())
+        }, 2000)
         // setTimeout
         console.log('loading...')
     };
@@ -19,7 +26,7 @@ function HW10() {
             {/*should work (должно работать)*/}
             {loading
                 ? (
-                    <div>крутилка...</div>
+                    <img src={"https://pear-advert.ru/images/uploads/blog/273/new-loading.gif"} style={{width: '50px', display: "block", marginLeft: "20px"}}/>
                 ) : (
                     <div>
                         <SuperButton onClick={setLoading}>set loading...</SuperButton>
