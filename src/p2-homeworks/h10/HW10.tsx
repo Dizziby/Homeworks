@@ -26,9 +26,9 @@ function HW10() {
             {/*should work (должно работать)*/}
             {loading
                 ? (
-                    <img src={"https://pear-advert.ru/images/uploads/blog/273/new-loading.gif"} style={{width: '50px', display: "block", marginLeft: "20px"}}/>
+                    <img src={"https://pear-advert.ru/images/uploads/blog/273/new-loading.gif"} style={{height:" 50px", display: "block", marginLeft: "20px"}}/>
                 ) : (
-                    <div>
+                    <div style={{height: "50px"}}>
                         <SuperButton onClick={setLoading}>set loading...</SuperButton>
                     </div>
                 )

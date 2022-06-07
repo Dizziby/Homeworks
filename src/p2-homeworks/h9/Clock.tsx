@@ -45,11 +45,10 @@ function Clock() {
                 {stringTime}
             </div>
             <div className={styles.date}>
-                {show && `${stringDate}`}
+                {show && stringDate}
             </div>
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
-
         </div>
     )
 }
